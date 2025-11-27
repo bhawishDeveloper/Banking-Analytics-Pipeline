@@ -1,0 +1,13 @@
+[2025-11-20T22:35:25.389+0500] {processor.py:161} INFO - Started process (PID=2561) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-11-20T22:35:25.392+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-11-20T22:35:25.397+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:35:25.395+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-11-20T22:35:25.440+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:35:25.428+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py", line 21, in <module>
+    from airflow.example_dags.plugins.workday import AfterWorkdayTimetable
+ModuleNotFoundError: No module named 'airflow.example_dags.plugins.workday'
+[2025-11-20T22:35:25.445+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-11-20T22:35:25.504+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py took 0.146 seconds

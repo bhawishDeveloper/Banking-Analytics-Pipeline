@@ -1,0 +1,532 @@
+[2025-11-22T20:14:49.284+0500] {processor.py:186} INFO - Started process (PID=65707) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:14:49.287+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:14:49.293+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:14:49.291+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:14:49.351+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:14:49.335+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:14:49.356+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:14:49.581+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.318 seconds
+[2025-11-22T20:15:54.862+0500] {processor.py:186} INFO - Started process (PID=65758) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:15:54.865+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:15:54.870+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:15:54.868+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:15:54.903+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:15:54.892+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:15:54.904+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:15:54.973+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.128 seconds
+[2025-11-22T20:16:50.147+0500] {processor.py:186} INFO - Started process (PID=65797) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:16:50.150+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:16:50.155+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:16:50.152+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:16:50.193+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:16:50.185+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:16:50.195+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:16:50.250+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.121 seconds
+[2025-11-22T20:19:52.575+0500] {processor.py:186} INFO - Started process (PID=65887) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:19:52.578+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:19:52.584+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:19:52.582+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:19:52.628+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:19:52.618+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:19:52.630+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:19:52.700+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.145 seconds
+[2025-11-22T20:21:44.450+0500] {processor.py:186} INFO - Started process (PID=65966) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:21:44.453+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:21:44.461+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:21:44.457+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:21:44.520+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:21:44.509+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:21:44.522+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:21:44.587+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.156 seconds
+[2025-11-22T20:22:50.928+0500] {processor.py:186} INFO - Started process (PID=66033) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:22:50.931+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:22:50.938+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:22:50.935+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:22:50.983+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:22:50.973+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:22:50.988+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:22:51.063+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.151 seconds
+[2025-11-22T20:23:51.459+0500] {processor.py:186} INFO - Started process (PID=66075) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:23:51.462+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:23:51.468+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:23:51.466+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:23:51.508+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:23:51.494+0500] {dagbag.py:387} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py", line 149
+    @task
+         ^
+IndentationError: unindent does not match any outer indentation level
+[2025-11-22T20:23:51.510+0500] {processor.py:927} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:23:51.573+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.129 seconds
+[2025-11-22T20:24:57.781+0500] {processor.py:186} INFO - Started process (PID=66132) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:24:57.784+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:24:57.790+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:24:57.788+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:24:57.929+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:24:59.774+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:24:59.772+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:24:59.825+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:24:59.824+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:25:00.024+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 2.261 seconds
+[2025-11-22T20:26:42.844+0500] {processor.py:186} INFO - Started process (PID=66191) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:26:42.846+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:26:42.850+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:26:42.848+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:26:42.888+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:26:45.027+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:26:45.026+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:26:45.071+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:26:45.070+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:26:45.176+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.433 seconds
+[2025-11-22T20:28:40.348+0500] {processor.py:186} INFO - Started process (PID=66298) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:28:40.351+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:28:40.355+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:28:40.353+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:28:40.396+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:28:40.429+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:28:40.427+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:28:40.456+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:28:40.455+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:28:40.530+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.202 seconds
+[2025-11-22T20:29:36.471+0500] {processor.py:186} INFO - Started process (PID=66355) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:29:36.473+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:29:36.477+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:29:36.475+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:29:36.516+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:29:36.554+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:29:36.553+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:29:36.587+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:29:36.585+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:29:36.661+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.206 seconds
+[2025-11-22T20:30:36.654+0500] {processor.py:186} INFO - Started process (PID=66420) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:30:36.656+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:30:36.661+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:30:36.659+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:30:36.716+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:30:36.769+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:30:36.767+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:30:36.811+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:30:36.810+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:30:36.911+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.274 seconds
+[2025-11-22T20:33:00.275+0500] {processor.py:186} INFO - Started process (PID=66511) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:33:00.277+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:33:00.281+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:33:00.280+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:33:00.323+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:33:00.362+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:33:00.361+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:33:00.400+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:33:00.398+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:33:00.484+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.224 seconds
+[2025-11-22T20:34:14.119+0500] {processor.py:186} INFO - Started process (PID=66569) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:34:14.123+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:34:14.127+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:34:14.125+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:34:14.165+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:34:14.206+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:34:14.205+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:34:14.246+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:34:14.244+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:34:14.374+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.275 seconds
+[2025-11-22T20:35:09.904+0500] {processor.py:186} INFO - Started process (PID=66614) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:35:09.906+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:35:09.910+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:35:09.908+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:35:09.947+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:35:09.987+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:35:09.986+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:35:10.022+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:35:10.021+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:35:10.095+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.208 seconds
+[2025-11-22T20:36:05.795+0500] {processor.py:186} INFO - Started process (PID=66652) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:36:05.798+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:36:05.803+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:36:05.800+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:36:05.866+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:36:05.922+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:36:05.920+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:36:05.952+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:36:05.951+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:36:06.041+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.264 seconds
+[2025-11-22T20:37:42.650+0500] {processor.py:186} INFO - Started process (PID=66723) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:37:42.653+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:37:42.656+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:37:42.655+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:37:42.699+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:37:42.742+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:37:42.740+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:37:42.773+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:37:42.771+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:37:42.844+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.215 seconds
+[2025-11-22T20:38:48.348+0500] {processor.py:186} INFO - Started process (PID=66797) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:38:48.351+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:38:48.354+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:38:48.353+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:38:48.388+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:38:48.432+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:38:48.431+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:38:48.468+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:38:48.467+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:38:48.545+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.213 seconds
+[2025-11-22T20:39:40.914+0500] {processor.py:186} INFO - Started process (PID=66852) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:39:40.917+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:39:40.921+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:39:40.919+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:39:40.961+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:39:41.007+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:39:41.006+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:39:41.048+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:39:41.047+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:39:41.128+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.230 seconds
+[2025-11-22T20:40:33.047+0500] {processor.py:186} INFO - Started process (PID=66905) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:40:33.049+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:40:33.052+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:40:33.051+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:40:33.085+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:40:33.120+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:40:33.119+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:40:33.157+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:40:33.154+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:40:33.226+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.192 seconds
+[2025-11-22T20:41:26.583+0500] {processor.py:186} INFO - Started process (PID=66965) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:41:26.585+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:41:26.589+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:41:26.587+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:41:26.619+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:41:26.651+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:41:26.650+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:41:26.678+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:41:26.677+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:41:26.740+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.171 seconds
+[2025-11-22T20:42:22.720+0500] {processor.py:186} INFO - Started process (PID=67018) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:42:22.722+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:42:22.727+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:42:22.725+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:42:22.765+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:42:22.800+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:42:22.798+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:42:22.830+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:42:22.829+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:42:22.903+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.201 seconds
+[2025-11-22T20:43:48.062+0500] {processor.py:186} INFO - Started process (PID=67081) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:43:48.065+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:43:48.069+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:43:48.068+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:43:48.108+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:43:48.151+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:43:48.150+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:43:48.178+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:43:48.177+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:43:48.240+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.194 seconds
+[2025-11-22T20:44:38.741+0500] {processor.py:186} INFO - Started process (PID=67117) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:44:38.744+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:44:38.749+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:44:38.747+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:44:38.794+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:44:38.835+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:44:38.834+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:44:38.868+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:44:38.867+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:44:38.939+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.218 seconds
+[2025-11-22T20:45:26.330+0500] {processor.py:186} INFO - Started process (PID=67161) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:45:26.332+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:45:26.336+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:45:26.335+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:45:26.378+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:45:26.415+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:45:26.414+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:45:26.454+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:45:26.453+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:45:26.527+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.214 seconds
+[2025-11-22T20:46:11.861+0500] {processor.py:186} INFO - Started process (PID=67196) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:46:11.863+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:46:11.866+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:46:11.865+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:46:11.895+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:46:11.941+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:46:11.940+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:46:11.981+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:46:11.979+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:46:12.045+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.197 seconds
+[2025-11-22T20:47:04.664+0500] {processor.py:186} INFO - Started process (PID=67239) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:47:04.666+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:47:04.669+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:04.668+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:47:04.695+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:47:04.729+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:04.728+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:47:04.756+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:04.755+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:47:04.821+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.168 seconds
+[2025-11-22T20:47:55.745+0500] {processor.py:186} INFO - Started process (PID=67276) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:47:55.747+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:47:55.750+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:55.749+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:47:55.780+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:47:55.819+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:55.818+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:47:55.845+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:55.845+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:47:55.901+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.168 seconds
+[2025-11-22T20:48:47.535+0500] {processor.py:186} INFO - Started process (PID=67313) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:48:47.537+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:48:47.540+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:48:47.539+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:48:47.578+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:48:47.617+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:48:47.616+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:48:47.649+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:48:47.647+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:48:47.727+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.208 seconds
+[2025-11-22T20:49:36.050+0500] {processor.py:186} INFO - Started process (PID=67356) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:49:36.053+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:49:36.058+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:49:36.056+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:49:36.097+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:49:36.128+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:49:36.127+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:49:36.157+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:49:36.156+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:49:36.250+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.216 seconds
+[2025-11-22T20:50:28.247+0500] {processor.py:186} INFO - Started process (PID=67393) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:50:28.250+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:50:28.253+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:50:28.251+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:50:28.290+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:50:28.324+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:50:28.323+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:50:28.354+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:50:28.353+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:50:28.419+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.187 seconds
+[2025-11-22T20:51:20.336+0500] {processor.py:186} INFO - Started process (PID=67437) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:51:20.338+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:51:20.342+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:51:20.341+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:51:20.385+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:51:20.427+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:51:20.426+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:51:20.453+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:51:20.452+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:51:20.525+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.205 seconds
+[2025-11-22T20:52:13.581+0500] {processor.py:186} INFO - Started process (PID=67476) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:52:13.583+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:52:13.587+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:52:13.585+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:52:13.619+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:52:13.654+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:52:13.653+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:52:13.678+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:52:13.677+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:52:13.745+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.182 seconds
+[2025-11-22T20:53:02.591+0500] {processor.py:186} INFO - Started process (PID=67514) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:53:02.593+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:53:02.596+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:02.594+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:53:02.625+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:53:02.657+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:02.656+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:53:02.682+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:02.681+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:53:02.739+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.162 seconds
+[2025-11-22T20:53:56.470+0500] {processor.py:186} INFO - Started process (PID=67559) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:53:56.472+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:53:56.475+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:56.474+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:53:56.514+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:53:56.549+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:56.548+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:53:56.589+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:56.588+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:53:56.655+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.203 seconds
+[2025-11-22T20:54:45.049+0500] {processor.py:186} INFO - Started process (PID=67596) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:54:45.052+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:54:45.057+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:54:45.055+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:54:45.097+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:54:45.139+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:54:45.137+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:54:45.178+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:54:45.176+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:54:45.255+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.224 seconds
+[2025-11-22T20:55:37.690+0500] {processor.py:186} INFO - Started process (PID=67722) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:55:37.693+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:55:37.696+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:55:37.695+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:55:37.732+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:55:37.768+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:55:37.767+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:55:37.809+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:55:37.808+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:55:37.877+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.202 seconds
+[2025-11-22T20:56:30.511+0500] {processor.py:186} INFO - Started process (PID=67761) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:56:30.514+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:56:30.521+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:56:30.517+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:56:30.564+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:56:30.591+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:56:30.591+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:56:30.626+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:56:30.624+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:56:30.684+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.191 seconds
+[2025-11-22T20:57:22.248+0500] {processor.py:186} INFO - Started process (PID=67805) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:57:22.250+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:57:22.253+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:57:22.252+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:57:22.290+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:57:22.325+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:57:22.324+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:57:22.352+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:57:22.351+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:57:22.419+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.187 seconds
+[2025-11-22T20:58:14.656+0500] {processor.py:186} INFO - Started process (PID=67841) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:58:14.659+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:58:14.664+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:58:14.662+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:58:14.711+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:58:14.753+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:58:14.752+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:58:14.780+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:58:14.778+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:58:14.852+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.213 seconds
+[2025-11-22T20:59:07.214+0500] {processor.py:186} INFO - Started process (PID=67880) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:59:07.216+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:59:07.219+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:07.218+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:59:07.249+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:59:07.280+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:07.280+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:59:07.306+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:07.305+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:59:07.379+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.177 seconds
+[2025-11-22T20:59:52.449+0500] {processor.py:186} INFO - Started process (PID=67922) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:59:52.451+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T20:59:52.454+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:52.453+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:59:52.486+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T20:59:52.529+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:52.528+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:59:52.571+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:52.570+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T20:59:52.648+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.213 seconds
+[2025-11-22T21:00:43.860+0500] {processor.py:186} INFO - Started process (PID=67958) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:00:43.862+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:00:43.865+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:00:43.864+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:00:43.901+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:00:43.937+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:00:43.936+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:00:43.964+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:00:43.963+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:00:44.029+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.186 seconds
+[2025-11-22T21:01:39.046+0500] {processor.py:186} INFO - Started process (PID=68020) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:01:39.049+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:01:39.053+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:01:39.052+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:01:39.098+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:01:39.148+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:01:39.146+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:01:39.187+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:01:39.186+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:01:39.275+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.248 seconds
+[2025-11-22T21:02:58.453+0500] {processor.py:186} INFO - Started process (PID=68062) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:02:58.456+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:02:58.461+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:02:58.459+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:02:58.503+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:02:58.542+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:02:58.541+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:02:58.568+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:02:58.567+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:02:58.623+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.196 seconds
+[2025-11-22T21:04:04.640+0500] {processor.py:186} INFO - Started process (PID=68127) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:04:04.642+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:04:04.646+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:04:04.644+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:04:04.685+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:04:04.731+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:04:04.729+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:04:04.769+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:04:04.767+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:04:04.997+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.377 seconds
+[2025-11-22T21:05:06.439+0500] {processor.py:186} INFO - Started process (PID=68186) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:05:06.442+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:05:06.446+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:05:06.445+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:05:06.480+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:05:06.513+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:05:06.512+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:05:06.541+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:05:06.540+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:05:06.604+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.188 seconds
+[2025-11-22T21:08:27.422+0500] {processor.py:186} INFO - Started process (PID=68322) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:08:27.424+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:08:27.428+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:08:27.427+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:08:27.476+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:08:27.520+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:08:27.519+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:08:27.557+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:08:27.555+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:08:27.745+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.355 seconds
+[2025-11-22T21:09:36.637+0500] {processor.py:186} INFO - Started process (PID=68371) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:09:36.639+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:09:36.644+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:09:36.642+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:09:36.677+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:09:36.708+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:09:36.706+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:09:36.733+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:09:36.732+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:09:36.788+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.169 seconds
+[2025-11-22T21:10:36.100+0500] {processor.py:186} INFO - Started process (PID=68417) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:10:36.102+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:10:36.104+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:10:36.103+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:10:36.131+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:10:36.163+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:10:36.162+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:10:36.187+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:10:36.186+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:10:36.402+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.322 seconds
+[2025-11-22T21:11:31.955+0500] {processor.py:186} INFO - Started process (PID=68458) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:11:31.958+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:11:31.965+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:11:31.961+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:11:32.046+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:11:32.235+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:11:32.234+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:11:32.264+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:11:32.263+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:11:32.339+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.408 seconds
+[2025-11-22T21:12:27.674+0500] {processor.py:186} INFO - Started process (PID=68501) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:12:27.676+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:12:27.680+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:12:27.679+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:12:27.720+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:12:27.754+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:12:27.753+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:12:27.783+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:12:27.782+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:12:27.854+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.194 seconds
+[2025-11-22T21:13:20.674+0500] {processor.py:186} INFO - Started process (PID=68541) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:13:20.677+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:13:20.682+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:13:20.680+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:13:20.724+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:13:20.773+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:13:20.772+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:13:20.806+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:13:20.805+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:13:20.869+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.214 seconds
+[2025-11-22T21:14:12.053+0500] {processor.py:186} INFO - Started process (PID=68584) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:14:12.055+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:14:12.058+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:14:12.057+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:14:12.089+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:14:12.126+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:14:12.124+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:14:12.152+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:14:12.151+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:14:12.237+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.199 seconds
+[2025-11-22T21:15:03.334+0500] {processor.py:186} INFO - Started process (PID=68621) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:15:03.336+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:15:03.339+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:03.338+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:15:03.367+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:15:03.396+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:03.395+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:15:03.420+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:03.419+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:15:03.474+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.155 seconds
+[2025-11-22T21:15:51.280+0500] {processor.py:186} INFO - Started process (PID=68658) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:15:51.282+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:15:51.287+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:51.285+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:15:51.327+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:15:51.368+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:51.366+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:15:51.399+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:51.398+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:15:51.473+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.211 seconds
+[2025-11-22T21:16:40.148+0500] {processor.py:186} INFO - Started process (PID=68700) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:16:40.150+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:16:40.154+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:16:40.152+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:16:40.190+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:16:40.233+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:16:40.232+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:16:40.263+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:16:40.263+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:16:40.341+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.213 seconds
+[2025-11-22T21:17:32.502+0500] {processor.py:186} INFO - Started process (PID=68739) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:17:32.505+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:17:32.509+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:17:32.507+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:17:32.551+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:17:32.587+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:17:32.586+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:17:32.619+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:17:32.617+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:17:32.685+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.201 seconds
+[2025-11-22T21:18:22.234+0500] {processor.py:186} INFO - Started process (PID=68782) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:18:22.236+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:18:22.241+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:18:22.239+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:18:22.287+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:18:22.328+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:18:22.327+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:18:22.373+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:18:22.371+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:18:22.454+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.242 seconds
+[2025-11-22T21:19:15.957+0500] {processor.py:186} INFO - Started process (PID=68821) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:19:15.959+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:19:15.963+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:19:15.961+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:19:15.998+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:19:16.029+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:19:16.028+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:19:16.065+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:19:16.063+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:19:16.138+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.197 seconds
+[2025-11-22T21:20:05.637+0500] {processor.py:186} INFO - Started process (PID=68858) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:20:05.638+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:20:05.641+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:05.640+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:20:05.665+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:20:05.697+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:05.695+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:20:05.727+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:05.725+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:20:05.802+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.181 seconds
+[2025-11-22T21:20:58.988+0500] {processor.py:186} INFO - Started process (PID=68900) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:20:58.991+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:20:58.995+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:58.993+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:20:59.036+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:20:59.072+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:59.070+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:20:59.099+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:59.098+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:20:59.166+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.199 seconds
+[2025-11-22T21:21:50.522+0500] {processor.py:186} INFO - Started process (PID=68941) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:21:50.525+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:21:50.528+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:50.527+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:21:50.580+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:21:50.644+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:50.642+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:21:50.684+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:50.682+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:21:50.776+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.273 seconds
+[2025-11-22T21:22:45.640+0500] {processor.py:186} INFO - Started process (PID=68984) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:22:45.643+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:22:45.647+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:22:45.645+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:22:45.683+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:22:45.722+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:22:45.721+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:22:45.745+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:22:45.744+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:22:45.811+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.200 seconds
+[2025-11-22T21:23:34.889+0500] {processor.py:186} INFO - Started process (PID=69024) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:23:34.892+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:23:34.897+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:23:34.895+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:23:34.952+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:23:35.018+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:23:35.016+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:23:35.076+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:23:35.074+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:23:35.155+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.303 seconds
+[2025-11-22T21:24:33.819+0500] {processor.py:186} INFO - Started process (PID=69067) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:24:33.825+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py for tasks to queue
+[2025-11-22T21:24:33.833+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:24:33.830+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:24:33.930+0500] {processor.py:925} INFO - DAG(s) 'daily_pipeline' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py
+[2025-11-22T21:24:34.017+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:24:34.008+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:24:34.082+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:24:34.078+0500] {dag.py:4180} INFO - Setting next_dagrun for daily_pipeline to 2025-11-22 00:00:00+00:00, run_after=2025-11-23 00:00:00+00:00
+[2025-11-22T21:24:34.185+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/daily_pipeline.py took 0.407 seconds

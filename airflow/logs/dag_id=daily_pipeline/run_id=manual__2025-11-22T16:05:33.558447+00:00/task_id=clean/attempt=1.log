@@ -1,0 +1,32 @@
+[2025-11-22T21:06:47.612+0500] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-22T21:06:47.636+0500] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_pipeline.clean manual__2025-11-22T16:05:33.558447+00:00 [queued]>
+[2025-11-22T21:06:47.653+0500] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_pipeline.clean manual__2025-11-22T16:05:33.558447+00:00 [queued]>
+[2025-11-22T21:06:47.655+0500] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-22T21:06:47.692+0500] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): clean> on 2025-11-22 16:05:33.558447+00:00
+[2025-11-22T21:06:47.715+0500] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'daily_pipeline', 'clean', 'manual__2025-11-22T16:05:33.558447+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/daily_pipeline.py', '--cfg-path', '/tmp/tmp39sywra0']
+[2025-11-22T21:06:47.720+0500] {standard_task_runner.py:105} INFO - Job 57: Subtask clean
+[2025-11-22T21:06:47.729+0500] {logging_mixin.py:190} WARNING - /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/.venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=68223) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-22T21:06:47.735+0500] {standard_task_runner.py:72} INFO - Started process 68239 to run task
+[2025-11-22T21:06:47.930+0500] {task_command.py:467} INFO - Running <TaskInstance: daily_pipeline.clean manual__2025-11-22T16:05:33.558447+00:00 [running]> on host DESKTOP-ER17M9N.localdomain
+[2025-11-22T21:06:48.347+0500] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='bhawish' AIRFLOW_CTX_DAG_ID='daily_pipeline' AIRFLOW_CTX_TASK_ID='clean' AIRFLOW_CTX_EXECUTION_DATE='2025-11-22T16:05:33.558447+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-22T16:05:33.558447+00:00'
+[2025-11-22T21:06:48.352+0500] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-22T21:06:48.357+0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-22T21:06:48.360+0500] {logging_mixin.py:190} INFO - Current task name:clean state:running start_date:2025-11-22 16:06:47.639167+00:00
+[2025-11-22T21:06:48.362+0500] {logging_mixin.py:190} INFO - Dag name:daily_pipeline and current dag run status:running
+[2025-11-22T21:06:48.365+0500] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-22T21:06:48.368+0500] {logging_mixin.py:190} INFO - [clean] Task started successfully!
+[2025-11-22T21:06:48.371+0500] {logging_mixin.py:190} INFO - [clean] Received df with 3 rows
+[2025-11-22T21:06:48.374+0500] {logging_mixin.py:190} INFO - [clean] Columns: ['Amount', 'transaction_id']
+[2025-11-22T21:06:48.376+0500] {python.py:240} INFO - Done. Returned value was:    Amount  transaction_id
+0   100.0               1
+1   200.0               2
+2    50.0               3
+[2025-11-22T21:06:48.455+0500] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-22T21:06:48.458+0500] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=daily_pipeline, task_id=clean, run_id=manual__2025-11-22T16:05:33.558447+00:00, execution_date=20251122T160533, start_date=20251122T160647, end_date=20251122T160648
+[2025-11-22T21:06:48.495+0500] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-22T21:06:48.499+0500] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-22T21:06:48.502+0500] {logging_mixin.py:190} INFO - Dag name:daily_pipeline queued_at:2025-11-22 16:05:33.630719+00:00
+[2025-11-22T21:06:48.505+0500] {logging_mixin.py:190} INFO - Task hostname:DESKTOP-ER17M9N.localdomain operator:_PythonDecoratedOperator
+[2025-11-22T21:06:48.565+0500] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-22T21:06:48.811+0500] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-22T21:06:48.841+0500] {local_task_job_runner.py:245} INFO - ::endgroup::

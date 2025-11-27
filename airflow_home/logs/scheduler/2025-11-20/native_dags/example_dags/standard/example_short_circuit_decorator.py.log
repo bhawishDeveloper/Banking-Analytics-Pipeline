@@ -1,0 +1,15 @@
+[2025-11-20T22:35:00.366+0500] {processor.py:161} INFO - Started process (PID=2544) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2025-11-20T22:35:00.371+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2025-11-20T22:35:00.376+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:35:00.374+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2025-11-20T22:35:00.448+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:35:00.427+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.standard.operators.empty import EmptyOperator
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.9.2` needs Apache Airflow 2.10.0+
+[2025-11-20T22:35:00.458+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2025-11-20T22:35:00.527+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.187 seconds

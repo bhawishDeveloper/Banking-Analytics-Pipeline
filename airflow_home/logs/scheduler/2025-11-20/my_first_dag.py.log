@@ -1,0 +1,488 @@
+[2025-11-20T22:04:52.278+0500] {processor.py:161} INFO - Started process (PID=1311) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:04:52.281+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:04:52.284+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:52.283+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:04:52.360+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:04:54.443+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:54.440+0500] {override.py:1829} INFO - Created Permission View: can read on DAG:my_first_dag
+[2025-11-20T22:04:54.548+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:54.546+0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:my_first_dag
+[2025-11-20T22:04:54.628+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:54.625+0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:my_first_dag
+[2025-11-20T22:04:54.632+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:54.630+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:04:54.679+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:54.677+0500] {dag.py:3118} INFO - Creating ORM DAG for my_first_dag
+[2025-11-20T22:04:54.702+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:04:54.701+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:04:54.856+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 2.597 seconds
+[2025-11-20T22:06:03.910+0500] {processor.py:161} INFO - Started process (PID=1365) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:06:03.913+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:06:03.918+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:06:03.915+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:06:03.974+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:06:04.026+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:06:04.022+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:06:04.071+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:06:04.069+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:06:04.206+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.322 seconds
+[2025-11-20T22:06:45.495+0500] {processor.py:161} INFO - Started process (PID=1399) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:06:45.498+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:06:45.502+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:06:45.500+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:06:45.653+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:06:45.725+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:06:45.723+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:06:45.801+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:06:45.798+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:06:46.080+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.612 seconds
+[2025-11-20T22:07:30.152+0500] {processor.py:161} INFO - Started process (PID=1428) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:07:30.155+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:07:30.158+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:07:30.157+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:07:30.199+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:07:30.238+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:07:30.237+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:07:30.276+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:07:30.274+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:07:30.386+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.252 seconds
+[2025-11-20T22:08:15.584+0500] {processor.py:161} INFO - Started process (PID=1462) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:08:15.587+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:08:15.592+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:08:15.590+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:08:15.657+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:08:15.694+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:08:15.692+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:08:15.726+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:08:15.724+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:08:15.832+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.269 seconds
+[2025-11-20T22:08:58.914+0500] {processor.py:161} INFO - Started process (PID=1495) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:08:58.917+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:08:58.922+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:08:58.920+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:08:58.978+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:08:59.029+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:08:59.027+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:08:59.078+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:08:59.076+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:08:59.192+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.302 seconds
+[2025-11-20T22:09:44.628+0500] {processor.py:161} INFO - Started process (PID=1528) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:09:44.631+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:09:44.636+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:09:44.634+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:09:44.717+0500] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:09:44.765+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:09:44.764+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:09:44.804+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:09:44.802+0500] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to 2025-11-20 00:00:00+00:00, run_after=2025-11-21 00:00:00+00:00
+[2025-11-20T22:09:44.925+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.320 seconds
+[2025-11-20T22:10:34.925+0500] {processor.py:161} INFO - Started process (PID=1559) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:10:34.928+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:10:34.936+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:10:34.932+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:10:35.031+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:10:34.990+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 4, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:10:35.034+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:10:35.099+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.196 seconds
+[2025-11-20T22:11:19.034+0500] {processor.py:161} INFO - Started process (PID=1602) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:11:19.037+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:11:19.043+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:11:19.040+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:11:19.142+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:11:19.120+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:11:19.152+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:11:19.248+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.247 seconds
+[2025-11-20T22:11:59.279+0500] {processor.py:161} INFO - Started process (PID=1631) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:11:59.282+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:11:59.285+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:11:59.284+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:11:59.322+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:11:59.308+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:11:59.325+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:11:59.378+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.116 seconds
+[2025-11-20T22:12:39.877+0500] {processor.py:161} INFO - Started process (PID=1664) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:12:39.880+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:12:39.884+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:12:39.882+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:12:39.929+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:12:39.912+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:12:39.933+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:12:40.006+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.148 seconds
+[2025-11-20T22:13:21.394+0500] {processor.py:161} INFO - Started process (PID=1693) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:13:21.397+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:13:21.400+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:13:21.398+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:13:21.438+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:13:21.424+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:13:21.441+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:13:21.498+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.124 seconds
+[2025-11-20T22:14:06.395+0500] {processor.py:161} INFO - Started process (PID=1727) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:14:06.398+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:14:06.402+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:14:06.400+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:14:06.459+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:14:06.435+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:14:06.464+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:14:06.556+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.183 seconds
+[2025-11-20T22:14:48.026+0500] {processor.py:161} INFO - Started process (PID=1758) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:14:48.029+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:14:48.032+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:14:48.031+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:14:48.073+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:14:48.055+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:14:48.079+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:14:48.155+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.146 seconds
+[2025-11-20T22:15:29.361+0500] {processor.py:161} INFO - Started process (PID=1788) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:15:29.363+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:15:29.367+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:15:29.365+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:15:29.414+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:15:29.394+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:15:29.418+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:15:29.475+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.131 seconds
+[2025-11-20T22:16:16.485+0500] {processor.py:161} INFO - Started process (PID=1818) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:16:16.488+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:16:16.492+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:16:16.490+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:16:16.530+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:16:16.516+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 3, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:16:16.534+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:16:16.594+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.128 seconds
+[2025-11-20T22:16:59.799+0500] {processor.py:161} INFO - Started process (PID=1851) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:16:59.802+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:16:59.808+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:16:59.806+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:16:59.937+0500] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:17:01.789+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:01.787+0500] {override.py:1829} INFO - Created Permission View: can read on DAG:hello_world
+[2025-11-20T22:17:01.849+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:01.847+0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello_world
+[2025-11-20T22:17:01.901+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:01.899+0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello_world
+[2025-11-20T22:17:01.904+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:01.903+0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-20T22:17:01.934+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:01.932+0500] {dag.py:3118} INFO - Creating ORM DAG for hello_world
+[2025-11-20T22:17:01.954+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:01.952+0500] {dag.py:3954} INFO - Setting next_dagrun for hello_world to 2025-11-19 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-20T22:17:02.080+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 3.186 seconds
+[2025-11-20T22:17:46.219+0500] {processor.py:161} INFO - Started process (PID=1883) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:17:46.222+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:17:46.225+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:46.224+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:17:46.280+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:17:46.268+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 6, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:17:46.282+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:17:46.348+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.149 seconds
+[2025-11-20T22:18:31.142+0500] {processor.py:161} INFO - Started process (PID=1918) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:18:31.145+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:18:31.149+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:18:31.147+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:18:31.218+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:18:31.200+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 7, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:18:31.222+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:18:31.296+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.182 seconds
+[2025-11-20T22:19:10.992+0500] {processor.py:161} INFO - Started process (PID=1949) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:19:10.995+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:19:10.998+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:19:10.997+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:19:11.039+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:19:11.024+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 7, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:19:11.043+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:19:11.102+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.137 seconds
+[2025-11-20T22:19:50.881+0500] {processor.py:161} INFO - Started process (PID=1981) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:19:50.884+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:19:50.888+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:19:50.886+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:19:50.953+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:19:50.936+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:19:50.958+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:19:51.026+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.167 seconds
+[2025-11-20T22:20:41.054+0500] {processor.py:161} INFO - Started process (PID=2019) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:20:41.056+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:20:41.060+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:20:41.058+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:20:41.099+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:20:41.085+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:20:41.104+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:20:41.193+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.168 seconds
+[2025-11-20T22:21:25.804+0500] {processor.py:161} INFO - Started process (PID=2055) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:21:25.807+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:21:25.811+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:21:25.809+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:21:25.848+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:21:25.835+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:21:25.853+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:21:25.911+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.127 seconds
+[2025-11-20T22:22:05.082+0500] {processor.py:161} INFO - Started process (PID=2084) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:22:05.084+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:22:05.088+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:22:05.086+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:22:05.126+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:22:05.113+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:22:05.130+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:22:05.185+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.119 seconds
+[2025-11-20T22:22:42.243+0500] {processor.py:161} INFO - Started process (PID=2115) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:22:42.244+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:22:42.247+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:22:42.246+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:22:42.284+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:22:42.268+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:22:42.288+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:22:42.363+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.134 seconds
+[2025-11-20T22:23:18.148+0500] {processor.py:161} INFO - Started process (PID=2142) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:23:18.150+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:23:18.154+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:23:18.152+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:23:18.192+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:23:18.178+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:23:18.196+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:23:18.259+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.129 seconds
+[2025-11-20T22:23:57.223+0500] {processor.py:161} INFO - Started process (PID=2173) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:23:57.226+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:23:57.231+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:23:57.228+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:23:57.274+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:23:57.257+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:23:57.278+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:23:57.354+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.149 seconds
+[2025-11-20T22:24:40.269+0500] {processor.py:161} INFO - Started process (PID=2220) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:24:40.272+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:24:40.282+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:24:40.280+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:24:40.341+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:24:40.322+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:24:40.350+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:24:40.452+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.220 seconds
+[2025-11-20T22:25:29.600+0500] {processor.py:161} INFO - Started process (PID=2280) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:25:29.603+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:25:29.608+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:25:29.606+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:25:29.668+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:25:29.646+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:25:29.677+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:25:29.770+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.219 seconds
+[2025-11-20T22:26:30.767+0500] {processor.py:161} INFO - Started process (PID=2311) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:26:30.770+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:26:30.775+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:26:30.773+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:26:30.861+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:26:30.838+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:26:30.867+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:26:30.996+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.287 seconds
+[2025-11-20T22:27:51.395+0500] {processor.py:161} INFO - Started process (PID=2351) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:27:51.400+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:27:51.412+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:27:51.409+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:27:51.464+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:27:51.445+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:27:51.469+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:27:51.557+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.194 seconds
+[2025-11-20T22:29:02.858+0500] {processor.py:161} INFO - Started process (PID=2411) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:29:02.863+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:29:02.870+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:29:02.867+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:29:02.967+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:29:02.911+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:29:02.983+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:29:03.133+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.315 seconds
+[2025-11-20T22:31:11.097+0500] {processor.py:161} INFO - Started process (PID=2481) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:31:11.102+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:31:11.110+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:31:11.107+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:31:11.178+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:31:11.159+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    dag_id,
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:31:11.184+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:31:11.292+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.251 seconds
+[2025-11-20T22:32:28.745+0500] {processor.py:161} INFO - Started process (PID=2530) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:32:28.748+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:32:28.753+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:32:28.751+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:32:28.790+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:32:28.776+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    dag_id,
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2025-11-20T22:32:28.795+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:32:28.858+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.143 seconds
+[2025-11-20T22:32:59.114+0500] {processor.py:161} INFO - Started process (PID=2536) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:32:59.117+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:32:59.122+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:32:59.120+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:32:59.182+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:32:59.164+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.9.2` needs Apache Airflow 2.10.0+
+[2025-11-20T22:32:59.190+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:32:59.261+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.175 seconds
+[2025-11-20T22:33:30.505+0500] {processor.py:161} INFO - Started process (PID=2537) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:33:30.507+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:33:30.511+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:33:30.509+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:33:30.556+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:33:30.542+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.9.2` needs Apache Airflow 2.10.0+
+[2025-11-20T22:33:30.561+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:33:30.611+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.126 seconds
+[2025-11-20T22:34:01.633+0500] {processor.py:161} INFO - Started process (PID=2539) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:34:01.636+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:34:01.644+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:34:01.641+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:34:01.731+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:34:01.708+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.9.2` needs Apache Airflow 2.10.0+
+[2025-11-20T22:34:01.740+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:34:02.310+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.704 seconds
+[2025-11-20T22:34:33.416+0500] {processor.py:161} INFO - Started process (PID=2541) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:34:33.425+0500] {processor.py:830} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py for tasks to queue
+[2025-11-20T22:34:33.437+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:34:33.430+0500] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:34:33.534+0500] {logging_mixin.py:188} INFO - [2025-11-20T22:34:33.515+0500] {dagbag.py:355} ERROR - Failed to import: /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py", line 31, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/venv/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.9.2` needs Apache Airflow 2.10.0+
+[2025-11-20T22:34:33.542+0500] {processor.py:842} WARNING - No viable dags retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py
+[2025-11-20T22:34:33.601+0500] {processor.py:183} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow_home/dags/my_first_dag.py took 0.265 seconds

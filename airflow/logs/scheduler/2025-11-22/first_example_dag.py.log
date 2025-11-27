@@ -1,0 +1,455 @@
+[2025-11-22T20:14:50.857+0500] {processor.py:186} INFO - Started process (PID=65708) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:14:50.861+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:14:50.866+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:14:50.864+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:14:50.919+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:14:51.006+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:14:50.993+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:14:51.154+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:14:51.148+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:14:51.267+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.431 seconds
+[2025-11-22T20:15:56.217+0500] {processor.py:186} INFO - Started process (PID=65759) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:15:56.219+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:15:56.222+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:15:56.221+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:15:56.254+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:15:56.291+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:15:56.290+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:15:56.319+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:15:56.318+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:15:56.390+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.187 seconds
+[2025-11-22T20:16:51.564+0500] {processor.py:186} INFO - Started process (PID=65798) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:16:51.567+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:16:51.573+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:16:51.571+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:16:51.619+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:16:51.680+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:16:51.678+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:16:51.733+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:16:51.732+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:16:51.834+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.300 seconds
+[2025-11-22T20:19:54.183+0500] {processor.py:186} INFO - Started process (PID=65888) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:19:54.187+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:19:54.195+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:19:54.193+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:19:54.497+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:19:54.919+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:19:54.916+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:19:54.984+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:19:54.982+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:19:55.132+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.973 seconds
+[2025-11-22T20:21:45.897+0500] {processor.py:186} INFO - Started process (PID=65967) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:21:45.900+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:21:45.909+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:21:45.906+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:21:46.067+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:21:46.278+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:21:46.277+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:21:46.406+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:21:46.404+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:21:46.553+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.682 seconds
+[2025-11-22T20:22:52.345+0500] {processor.py:186} INFO - Started process (PID=66034) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:22:52.347+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:22:52.357+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:22:52.351+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:22:52.468+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:22:52.506+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:22:52.505+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:22:52.543+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:22:52.542+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:22:52.650+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.323 seconds
+[2025-11-22T20:23:54.574+0500] {processor.py:186} INFO - Started process (PID=66082) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:23:54.576+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:23:54.582+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:23:54.581+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:23:54.690+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:23:54.732+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:23:54.730+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:23:54.774+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:23:54.772+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:23:54.846+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.292 seconds
+[2025-11-22T20:27:16.180+0500] {processor.py:186} INFO - Started process (PID=66210) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:27:16.187+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:27:16.199+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:27:16.193+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:27:16.281+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:27:16.450+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:27:16.448+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:27:16.491+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:27:16.487+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:27:16.601+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.461 seconds
+[2025-11-22T20:28:41.863+0500] {processor.py:186} INFO - Started process (PID=66301) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:28:41.866+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:28:41.871+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:28:41.869+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:28:41.906+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:28:41.951+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:28:41.950+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:28:41.979+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:28:41.978+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:28:42.065+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.221 seconds
+[2025-11-22T20:29:38.094+0500] {processor.py:186} INFO - Started process (PID=66356) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:29:38.097+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:29:38.103+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:29:38.099+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:29:38.152+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:29:38.194+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:29:38.193+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:29:38.228+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:29:38.227+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:29:38.303+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.228 seconds
+[2025-11-22T20:30:38.424+0500] {processor.py:186} INFO - Started process (PID=66421) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:30:38.427+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:30:38.433+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:30:38.431+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:30:38.484+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:30:38.575+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:30:38.567+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:30:38.626+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:30:38.625+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:30:38.729+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.328 seconds
+[2025-11-22T20:33:00.919+0500] {processor.py:186} INFO - Started process (PID=66512) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:33:00.921+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:33:00.925+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:33:00.923+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:33:00.959+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:33:00.996+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:33:00.994+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:33:01.032+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:33:01.030+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:33:01.109+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.208 seconds
+[2025-11-22T20:34:15.663+0500] {processor.py:186} INFO - Started process (PID=66570) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:34:15.666+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:34:15.670+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:34:15.669+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:34:15.714+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:34:15.833+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:34:15.831+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:34:15.880+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:34:15.879+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:34:15.948+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.305 seconds
+[2025-11-22T20:35:10.769+0500] {processor.py:186} INFO - Started process (PID=66615) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:35:10.772+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:35:10.775+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:35:10.774+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:35:10.817+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:35:10.872+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:35:10.871+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:35:10.910+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:35:10.909+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:35:10.998+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.250 seconds
+[2025-11-22T20:36:07.239+0500] {processor.py:186} INFO - Started process (PID=66653) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:36:07.242+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:36:07.248+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:36:07.245+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:36:07.284+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:36:07.325+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:36:07.324+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:36:07.371+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:36:07.369+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:36:07.466+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.244 seconds
+[2025-11-22T20:37:44.138+0500] {processor.py:186} INFO - Started process (PID=66725) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:37:44.142+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:37:44.147+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:37:44.145+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:37:44.188+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:37:44.254+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:37:44.253+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:37:44.298+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:37:44.296+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:37:44.369+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.253 seconds
+[2025-11-22T20:38:49.826+0500] {processor.py:186} INFO - Started process (PID=66798) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:38:49.829+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:38:49.834+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:38:49.832+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:38:49.872+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:38:49.925+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:38:49.921+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:38:50.001+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:38:49.997+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:38:50.081+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.272 seconds
+[2025-11-22T20:39:42.438+0500] {processor.py:186} INFO - Started process (PID=66853) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:39:42.440+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:39:42.444+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:39:42.442+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:39:42.475+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:39:42.517+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:39:42.516+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:39:42.554+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:39:42.552+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:39:42.632+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.208 seconds
+[2025-11-22T20:40:34.626+0500] {processor.py:186} INFO - Started process (PID=66906) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:40:34.628+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:40:34.632+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:40:34.631+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:40:34.669+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:40:34.703+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:40:34.701+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:40:34.738+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:40:34.737+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:40:34.814+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.207 seconds
+[2025-11-22T20:41:27.992+0500] {processor.py:186} INFO - Started process (PID=66966) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:41:27.995+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:41:27.998+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:41:27.997+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:41:28.039+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:41:28.081+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:41:28.080+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:41:28.116+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:41:28.114+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:41:28.217+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.238 seconds
+[2025-11-22T20:42:24.223+0500] {processor.py:186} INFO - Started process (PID=67019) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:42:24.226+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:42:24.229+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:42:24.228+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:42:24.268+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:42:24.318+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:42:24.314+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:42:24.356+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:42:24.354+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:42:24.435+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.229 seconds
+[2025-11-22T20:43:49.521+0500] {processor.py:186} INFO - Started process (PID=67082) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:43:49.523+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:43:49.527+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:43:49.526+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:43:49.564+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:43:49.609+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:43:49.607+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:43:49.646+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:43:49.645+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:43:49.717+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.215 seconds
+[2025-11-22T20:44:40.211+0500] {processor.py:186} INFO - Started process (PID=67118) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:44:40.214+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:44:40.218+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:44:40.216+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:44:40.257+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:44:40.295+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:44:40.294+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:44:40.321+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:44:40.319+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:44:40.391+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.198 seconds
+[2025-11-22T20:45:27.753+0500] {processor.py:186} INFO - Started process (PID=67162) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:45:27.756+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:45:27.760+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:45:27.759+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:45:27.796+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:45:27.840+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:45:27.839+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:45:27.867+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:45:27.866+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:45:27.932+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.198 seconds
+[2025-11-22T20:46:13.049+0500] {processor.py:186} INFO - Started process (PID=67197) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:46:13.051+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:46:13.055+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:46:13.053+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:46:13.090+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:46:13.135+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:46:13.134+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:46:13.193+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:46:13.191+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:46:13.309+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.278 seconds
+[2025-11-22T20:47:06.005+0500] {processor.py:186} INFO - Started process (PID=67240) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:47:06.009+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:47:06.013+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:06.011+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:47:06.048+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:47:06.090+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:06.089+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:47:06.120+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:06.118+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:47:06.206+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.221 seconds
+[2025-11-22T20:47:57.070+0500] {processor.py:186} INFO - Started process (PID=67277) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:47:57.073+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:47:57.077+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:57.076+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:47:57.115+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:47:57.163+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:57.162+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:47:57.204+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:47:57.198+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:47:57.304+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.251 seconds
+[2025-11-22T20:48:48.078+0500] {processor.py:186} INFO - Started process (PID=67314) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:48:48.080+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:48:48.084+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:48:48.082+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:48:48.118+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:48:48.153+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:48:48.152+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:48:48.183+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:48:48.182+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:48:48.256+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.194 seconds
+[2025-11-22T20:49:37.483+0500] {processor.py:186} INFO - Started process (PID=67357) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:49:37.485+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:49:37.490+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:49:37.488+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:49:37.525+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:49:37.574+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:49:37.572+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:49:37.620+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:49:37.618+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:49:37.678+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.211 seconds
+[2025-11-22T20:50:29.686+0500] {processor.py:186} INFO - Started process (PID=67394) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:50:29.688+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:50:29.691+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:50:29.690+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:50:29.731+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:50:29.772+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:50:29.771+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:50:29.811+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:50:29.810+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:50:29.888+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.218 seconds
+[2025-11-22T20:51:21.755+0500] {processor.py:186} INFO - Started process (PID=67438) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:51:21.757+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:51:21.761+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:51:21.760+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:51:21.793+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:51:21.832+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:51:21.831+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:51:21.862+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:51:21.861+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:51:21.933+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.195 seconds
+[2025-11-22T20:52:14.938+0500] {processor.py:186} INFO - Started process (PID=67477) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:52:14.941+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:52:14.945+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:52:14.944+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:52:14.979+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:52:15.013+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:52:15.012+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:52:15.049+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:52:15.048+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:52:15.106+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.185 seconds
+[2025-11-22T20:53:03.978+0500] {processor.py:186} INFO - Started process (PID=67515) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:53:03.980+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:53:03.985+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:03.983+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:53:04.023+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:53:04.061+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:04.060+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:53:04.095+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:04.093+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:53:04.161+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.202 seconds
+[2025-11-22T20:53:57.510+0500] {processor.py:186} INFO - Started process (PID=67560) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:53:57.512+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:53:57.515+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:57.514+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:53:57.549+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:53:57.589+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:57.587+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:53:57.617+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:53:57.616+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:53:57.688+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.194 seconds
+[2025-11-22T20:54:46.499+0500] {processor.py:186} INFO - Started process (PID=67597) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:54:46.502+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:54:46.507+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:54:46.505+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:54:46.542+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:54:46.586+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:54:46.584+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:54:46.622+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:54:46.621+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:54:46.720+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.239 seconds
+[2025-11-22T20:55:39.123+0500] {processor.py:186} INFO - Started process (PID=67723) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:55:39.126+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:55:39.129+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:55:39.128+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:55:39.160+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:55:39.200+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:55:39.198+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:55:39.228+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:55:39.227+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:55:39.302+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.193 seconds
+[2025-11-22T20:56:31.395+0500] {processor.py:186} INFO - Started process (PID=67762) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:56:31.398+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:56:31.402+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:56:31.400+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:56:31.439+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:56:31.482+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:56:31.481+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:56:31.515+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:56:31.514+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:56:31.604+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.225 seconds
+[2025-11-22T20:57:23.715+0500] {processor.py:186} INFO - Started process (PID=67806) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:57:23.718+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:57:23.721+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:57:23.720+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:57:23.756+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:57:23.798+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:57:23.796+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:57:23.837+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:57:23.836+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:57:23.904+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.205 seconds
+[2025-11-22T20:58:16.069+0500] {processor.py:186} INFO - Started process (PID=67842) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:58:16.071+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:58:16.074+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:58:16.073+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:58:16.106+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:58:16.140+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:58:16.139+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:58:16.166+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:58:16.165+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:58:16.237+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.180 seconds
+[2025-11-22T20:59:08.568+0500] {processor.py:186} INFO - Started process (PID=67881) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:59:08.570+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:59:08.575+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:08.573+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:59:08.619+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:59:08.660+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:08.659+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:59:08.687+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:08.686+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:59:08.759+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.207 seconds
+[2025-11-22T20:59:53.879+0500] {processor.py:186} INFO - Started process (PID=67923) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:59:53.882+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T20:59:53.885+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:53.883+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:59:53.915+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T20:59:53.946+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:53.945+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T20:59:53.972+0500] {logging_mixin.py:190} INFO - [2025-11-22T20:59:53.971+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T20:59:54.038+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.172 seconds
+[2025-11-22T21:00:45.292+0500] {processor.py:186} INFO - Started process (PID=67959) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:00:45.294+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:00:45.297+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:00:45.296+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:00:45.333+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:00:45.380+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:00:45.378+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:00:45.415+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:00:45.414+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:00:45.493+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.216 seconds
+[2025-11-22T21:01:40.008+0500] {processor.py:186} INFO - Started process (PID=68021) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:01:40.010+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:01:40.014+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:01:40.013+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:01:40.051+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:01:40.099+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:01:40.098+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:01:40.142+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:01:40.140+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:01:40.222+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.232 seconds
+[2025-11-22T21:02:59.921+0500] {processor.py:186} INFO - Started process (PID=68063) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:02:59.923+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:02:59.927+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:02:59.925+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:02:59.972+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:03:00.025+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:03:00.023+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:03:00.305+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:03:00.303+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:03:00.407+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.509 seconds
+[2025-11-22T21:04:06.205+0500] {processor.py:186} INFO - Started process (PID=68128) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:04:06.208+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:04:06.212+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:04:06.211+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:04:06.261+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:04:06.455+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:04:06.453+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:04:06.517+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:04:06.515+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:04:06.833+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.649 seconds
+[2025-11-22T21:05:09.723+0500] {processor.py:186} INFO - Started process (PID=68187) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:05:09.726+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:05:09.730+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:05:09.728+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:05:09.771+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:05:09.816+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:05:09.815+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:05:09.853+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:05:09.852+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:05:09.938+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.237 seconds
+[2025-11-22T21:08:28.982+0500] {processor.py:186} INFO - Started process (PID=68323) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:08:28.985+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:08:28.989+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:08:28.988+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:08:29.030+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:08:29.068+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:08:29.067+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:08:29.102+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:08:29.101+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:08:29.349+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.417 seconds
+[2025-11-22T21:09:37.998+0500] {processor.py:186} INFO - Started process (PID=68372) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:09:38.000+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:09:38.003+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:09:38.002+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:09:38.034+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:09:38.067+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:09:38.066+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:09:38.104+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:09:38.103+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:09:38.174+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.196 seconds
+[2025-11-22T21:10:37.641+0500] {processor.py:186} INFO - Started process (PID=68418) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:10:37.644+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:10:37.647+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:10:37.646+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:10:37.680+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:10:37.717+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:10:37.716+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:10:37.749+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:10:37.747+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:10:37.949+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.331 seconds
+[2025-11-22T21:11:33.630+0500] {processor.py:186} INFO - Started process (PID=68459) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:11:33.632+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:11:33.636+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:11:33.634+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:11:33.677+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:11:33.890+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:11:33.888+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:11:33.915+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:11:33.913+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:11:33.983+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.371 seconds
+[2025-11-22T21:12:29.135+0500] {processor.py:186} INFO - Started process (PID=68502) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:12:29.138+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:12:29.142+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:12:29.141+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:12:29.180+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:12:29.220+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:12:29.218+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:12:29.261+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:12:29.259+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:12:29.331+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.216 seconds
+[2025-11-22T21:13:22.212+0500] {processor.py:186} INFO - Started process (PID=68542) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:13:22.215+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:13:22.219+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:13:22.217+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:13:22.251+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:13:22.286+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:13:22.285+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:13:22.316+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:13:22.315+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:13:22.384+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.190 seconds
+[2025-11-22T21:14:13.563+0500] {processor.py:186} INFO - Started process (PID=68585) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:14:13.566+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:14:13.569+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:14:13.568+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:14:13.609+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:14:13.648+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:14:13.646+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:14:13.691+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:14:13.689+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:14:13.781+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.240 seconds
+[2025-11-22T21:15:04.713+0500] {processor.py:186} INFO - Started process (PID=68622) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:15:04.716+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:15:04.720+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:04.718+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:15:04.757+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:15:04.798+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:04.797+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:15:04.829+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:04.827+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:15:04.903+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.215 seconds
+[2025-11-22T21:15:52.778+0500] {processor.py:186} INFO - Started process (PID=68659) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:15:52.781+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:15:52.785+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:52.783+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:15:52.817+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:15:52.861+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:52.860+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:15:52.895+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:15:52.893+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:15:52.970+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.212 seconds
+[2025-11-22T21:16:41.130+0500] {processor.py:186} INFO - Started process (PID=68701) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:16:41.132+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:16:41.136+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:16:41.134+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:16:41.165+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:16:41.200+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:16:41.199+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:16:41.233+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:16:41.231+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:16:41.315+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.203 seconds
+[2025-11-22T21:17:33.930+0500] {processor.py:186} INFO - Started process (PID=68740) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:17:33.932+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:17:33.936+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:17:33.934+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:17:33.978+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:17:34.031+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:17:34.029+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:17:34.064+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:17:34.063+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:17:34.127+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.217 seconds
+[2025-11-22T21:18:23.684+0500] {processor.py:186} INFO - Started process (PID=68783) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:18:23.686+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:18:23.691+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:18:23.689+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:18:23.729+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:18:23.785+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:18:23.783+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:18:23.827+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:18:23.826+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:18:23.904+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.243 seconds
+[2025-11-22T21:19:17.418+0500] {processor.py:186} INFO - Started process (PID=68822) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:19:17.421+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:19:17.429+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:19:17.427+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:19:17.465+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:19:17.500+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:19:17.498+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:19:17.531+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:19:17.530+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:19:17.613+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.217 seconds
+[2025-11-22T21:20:07.055+0500] {processor.py:186} INFO - Started process (PID=68859) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:20:07.057+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:20:07.062+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:07.060+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:20:07.099+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:20:07.137+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:07.136+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:20:07.170+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:20:07.168+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:20:07.246+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.211 seconds
+[2025-11-22T21:21:00.422+0500] {processor.py:186} INFO - Started process (PID=68901) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:21:00.424+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:21:00.428+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:00.427+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:21:00.462+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:21:00.500+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:00.499+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:21:00.540+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:00.539+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:21:00.655+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.251 seconds
+[2025-11-22T21:21:54.613+0500] {processor.py:186} INFO - Started process (PID=68942) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:21:54.617+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:21:54.622+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:54.620+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:21:54.669+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:21:54.739+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:54.738+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:21:54.786+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:21:54.784+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:21:54.891+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.308 seconds
+[2025-11-22T21:22:47.111+0500] {processor.py:186} INFO - Started process (PID=68985) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:22:47.113+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:22:47.117+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:22:47.116+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:22:47.149+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:22:47.194+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:22:47.192+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:22:47.227+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:22:47.226+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:22:47.293+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.197 seconds
+[2025-11-22T21:23:36.432+0500] {processor.py:186} INFO - Started process (PID=69025) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:23:36.435+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:23:36.439+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:23:36.437+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:23:36.472+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:23:36.507+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:23:36.506+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:23:36.534+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:23:36.533+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:23:36.608+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.197 seconds
+[2025-11-22T21:24:35.608+0500] {processor.py:186} INFO - Started process (PID=69068) to work on /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:24:35.611+0500] {processor.py:914} INFO - Processing file /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py for tasks to queue
+[2025-11-22T21:24:35.616+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:24:35.614+0500] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:24:35.664+0500] {processor.py:925} INFO - DAG(s) 'first_example_dag' retrieved from /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py
+[2025-11-22T21:24:35.711+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:24:35.709+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-22T21:24:35.745+0500] {logging_mixin.py:190} INFO - [2025-11-22T21:24:35.743+0500] {dag.py:4180} INFO - Setting next_dagrun for first_example_dag to 2025-11-21 00:00:00+00:00, run_after=2025-11-22 00:00:00+00:00
+[2025-11-22T21:24:35.824+0500] {processor.py:208} INFO - Processing /mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/airflow/dags/first_example_dag.py took 0.243 seconds
