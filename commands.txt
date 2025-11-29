@@ -1,9 +1,0 @@
-cd "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/"
-source venv/bin/activate
-cd airflow_home
-export AIRFLOW_HOME=/mnt/c/Users/Raj/OneDrive\ -\ Åbo\ Akademi\ O365/banking/airflow_home
-airflow webserver
-export AIRFLOW_HOME=/mnt/c/Users/Raj/OneDrive\ -\ Åbo\ Akademi\ O365/banking/airflow_home
-airflow scheduler
-
-airflow standalone
