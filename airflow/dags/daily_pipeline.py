@@ -11,21 +11,16 @@ from airflow import DAG
 from airflow.decorators import task
 
 # ---------- config ----------
-# AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", str(Path.home() / "airflow"))
-# # path to your sqlite DB relative to AIRFLOW_HOME/data/banking.db
-# DB_PATH = Path(AIRFLOW_HOME) / "data" / "banking.db"
-# SQLALCHEMY_CONN = f"sqlite:///{DB_PATH}"
-# ---------- end config ----------
-
-
-# ---------- config ----------
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", str(Path.home() / "airflow"))
-# WRONG: This adds airflow/data/ to the path
-# DB_PATH = Path(AIRFLOW_HOME) / "data" / "banking.db"
 
-# CORRECT: Use the actual path where your banking.db file is located
+# Path to your SQLite DB – adjust ONLY if you moved the file
 DB_PATH = Path("/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/banking.db")
 SQLALCHEMY_CONN = f"sqlite:///{DB_PATH}"
+
+# Name of the source table in SQLite that has your raw data
+SOURCE_TABLE = "transactions"   # change if your table is named differently
+TARGET_TABLE = "transactions_summary"
+CSV_OUTPUT = "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/transactions_summary.csv"
 # ---------- end config ----------
 
 default_args = {
@@ -38,9 +33,9 @@ default_args = {
 with DAG(
     dag_id="daily_pipeline",
     default_args=default_args,
-    description="Extract -> Clean -> Aggregate -> Save pipeline (SQLite)",
+    description="Extract -> Clean -> Aggregate -> Save pipeline (SQLite, balance column)",
     schedule_interval="@daily",
-    start_date=datetime(2025, 11, 20),
+    start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=["banking", "etl"],
 ) as dag:
@@ -48,199 +43,280 @@ with DAG(
     @task
     def extract(execution_date: datetime = None) -> pd.DataFrame:
         """
-        Read raw transactions from SQLite into a pandas DataFrame.
+        Read raw data from SQLite into a pandas DataFrame.
+        Expected columns:
+        age, job, marital, education, default, balance, housing, loan,
+        contact, day, month, duration, campaign, pdays, previous,
+        poutcome, deposit
         """
-        DB_PATH_parent = DB_PATH
-        if not DB_PATH_parent.exists():
-            raise FileNotFoundError(f"SQLite DB not found at: {DB_PATH_parent}")
+        if not DB_PATH.exists():
+            raise FileNotFoundError(f"SQLite DB not found at: {DB_PATH}")
 
         engine = create_engine(SQLALCHEMY_CONN)
-        
-        # Get the raw connection that pandas can use
         conn = engine.raw_connection()
         try:
-            df = pd.read_sql("SELECT * FROM transactions", con=conn)
-            # Add an execution_date column for traceability (optional)
-            df["ingest_ts"] = pd.Timestamp.utcnow()
-            # Log basic info
-            print(f"[extract] rows={len(df)} columns={list(df.columns)[:10]}")
-            return df
+            df = pd.read_sql(f"SELECT * FROM {SOURCE_TABLE}", con=conn)
         finally:
             conn.close()
-        
-        # """Extract task - simplified"""
-        # print("[extract] Task started successfully!")
-        # print(f"[extract] DB_PATH = {DB_PATH}")
-        # print(f"[extract] DB exists? {DB_PATH.exists()}")
-        
-        # # Create a dummy dataframe to pass to next task
-        # df = pd.DataFrame({
-        #     'Amount': [100.0, 200.0, 50.0],
-        #     'transaction_id': [1, 2, 3]
-        # })
-        # print(f"[extract] Created dummy df with {len(df)} rows")
-        # return df
+
+        # Add ingestion timestamp
+        df["ingest_ts"] = pd.Timestamp.utcnow()
+
+        print("[extract] rows =", len(df))
+        print("[extract] columns =", list(df.columns))
+        return df
 
     @task
     def clean(df: pd.DataFrame) -> pd.DataFrame:
         """
-        Simple cleaning:
-        - ensure amount numeric
-        - filter missing/negative amounts (example rule)
-        - drop exact duplicates
+        Clean the raw data:
+        - Ensure 'balance' is numeric
+        - Drop rows with null balance
+        - Drop negative balance (if you consider them invalid)
+        - Drop exact duplicates
         """
-        # if df.empty:
-        #     print("[clean] empty dataframe received")
-        #     return df
+        print("[clean] Task started")
+        print(f"[clean] received rows = {len(df)}")
+        print(f"[clean] columns = {list(df.columns)}")
 
-        # # Ensure column names match your CSV (adjust field names if different)
-        # # Common field name in credit card fraud dataset: 'Amount'
-        # # Try both lowercase and title-case
-        # possible_amount_cols = [c for c in df.columns if c.lower() in ("amount", "amt", "transaction_amount")]
-        # if not possible_amount_cols:
-        #     # If no amount column found, try 'Amount' explicitly and raise helpful error
-        #     raise KeyError("No 'amount' column found in transactions table. Columns: " + ", ".join(df.columns))
+        if df.empty:
+            print("[clean] empty dataframe, nothing to do")
+            return df
 
-        # amount_col = possible_amount_cols[0]
-        # df[amount_col] = pd.to_numeric(df[amount_col], errors="coerce")
-        # # drop rows with null amount
-        # df = df[df[amount_col].notna()].copy()
-        # # filter negative amounts (domain rule — change if you need negatives)
-        # df = df[df[amount_col] >= 0].copy()
-        # # drop exact duplicates
-        # df = df.drop_duplicates()
-        # print(f"[clean] cleaned rows={len(df)}")
-        # return df
+        if "balance" not in df.columns:
+            raise KeyError(
+                "Expected 'balance' column in raw data. Columns: "
+                + ", ".join(df.columns)
+            )
 
-        """Clean task - simplified"""
-        print("[clean] Task started successfully!")
-        print(f"[clean] Received df with {len(df)} rows")
-        print(f"[clean] Columns: {list(df.columns)}")
+        # Make sure balance is numeric
+        df["balance"] = pd.to_numeric(df["balance"], errors="coerce")
+
+        # Drop null balances
+        df = df[df["balance"].notna()].copy()
+
+        # Optionally drop negative balances (adjust if you need them)
+        df = df[df["balance"] >= 0].copy()
+
+        # Remove exact duplicates
+        df = df.drop_duplicates()
+
+        print(f"[clean] cleaned rows = {len(df)}")
+        if len(df) == 0:
+            raise ValueError("[clean] No rows left after cleaning – possible data issue.")
         return df
-
     @task
-    def aggregate(df: pd.DataFrame, execution_date: datetime = None) -> pd.DataFrame:
+    def aggregate(df: pd.DataFrame, execution_date: datetime = None) -> dict:
         """
-        Aggregate into a summary per execution_date.
-        We compute: count, sum, mean, min, max of amounts.
+        Aggregate into multiple summary tables:
+        1. Daily summary (overall KPIs)
+        2. Job-based campaign performance
         """
-        # if df.empty:
-        #     # return an empty dataframe with the summary schema
-        #     summary = pd.DataFrame(
-        #         [
-        #             {
-        #                 "dt": pd.Timestamp(execution_date).normalize() if execution_date else pd.Timestamp.utcnow().normalize(),
-        #                 "tx_count": 0,
-        #                 "tx_sum": 0.0,
-        #                 "tx_mean": None,
-        #                 "tx_min": None,
-        #                 "tx_max": None,
-        #             }
-        #         ]
-        #     )
-        #     print("[aggregate] empty input -> returning empty summary")
-        #     return summary
-
-        # # detect the amount column again
-        # amount_col = [c for c in df.columns if c.lower() in ("amount", "amt", "transaction_amount")][0]
-        # # perform aggregation (single daily row)
-        # total = df[amount_col].sum()
-        # count = df[amount_col].count()
-        # mean = df[amount_col].mean()
-        # mn = df[amount_col].min()
-        # mx = df[amount_col].max()
-
-        # summary = pd.DataFrame(
-        #     [
-        #         {
-        #             "dt": pd.Timestamp(execution_date).normalize() if execution_date else pd.Timestamp.utcnow().normalize(),
-        #             "tx_count": int(count),
-        #             "tx_sum": float(total),
-        #             "tx_mean": float(mean) if pd.notna(mean) else None,
-        #             "tx_min": float(mn) if pd.notna(mn) else None,
-        #             "tx_max": float(mx) if pd.notna(mx) else None,
-        #         }
-        #     ]
-        # )
-        # print(f"[aggregate] summary={summary.to_dict(orient='records')}")
-        # return summary
-        """Aggregate task - simplified"""
-        print("[aggregate] Task started successfully!")
+        print("[aggregate] Task started")
         print(f"[aggregate] Received df with {len(df)} rows")
         
-        # Create dummy summary
-        summary = pd.DataFrame([{
-            "dt": pd.Timestamp.utcnow().normalize(),
-            "tx_count": len(df),
-            "tx_sum": df['Amount'].sum(),
-            "tx_mean": df['Amount'].mean(),
-            "tx_min": df['Amount'].min(),
-            "tx_max": df['Amount'].max(),
+        dt = (
+            pd.Timestamp(execution_date).normalize()
+            if execution_date
+            else pd.Timestamp.utcnow().normalize()
+        )
+        run_id = f"daily_pipeline_{pd.Timestamp.utcnow().isoformat()}"
+
+        if df.empty:
+            daily_summary = pd.DataFrame([{
+                "dt": dt,
+                "run_id": run_id,
+                "total_customers": 0,
+                "bal_sum": 0.0,
+                "bal_mean": None,
+                "bal_min": None,
+                "bal_max": None,
+            }])
+            job_summary = pd.DataFrame()
+            return {"daily_summary": daily_summary, "job_campaign_summary": job_summary}
+        
+        # 1. Daily Summary
+        daily_summary = pd.DataFrame([{
+            "dt": dt,
+            "run_id": run_id,
+            "total_customers": len(df),
+            "bal_sum": float(df["balance"].sum()),
+            "bal_mean": float(df["balance"].mean()),
+            "bal_min": float(df["balance"].min()),
+            "bal_max": float(df["balance"].max()),
+            "deposit_yes_count": int((df["deposit"] == "yes").sum()),
+            "deposit_conversion_rate": float((df["deposit"] == "yes").sum() / len(df) * 100),
         }])
-        print(f"[aggregate] Created summary: {summary.to_dict(orient='records')}")
-        return summary
+        
+        # 2. Job-based Campaign Performance
+        job_summary = df.groupby("job").agg({
+            "balance": ["count", "mean", "sum"],
+            "deposit": lambda x: (x == "yes").sum()
+        }).reset_index()
+        
+        job_summary.columns = ["job", "customer_count", "avg_balance", "total_balance", "deposit_yes_count"]
+        job_summary["deposit_conversion_rate"] = (job_summary["deposit_yes_count"] / job_summary["customer_count"] * 100).round(2)
+        job_summary["dt"] = dt
+        job_summary["run_id"] = run_id
+        
+        print(f"[aggregate] Daily summary: {daily_summary.to_dict(orient='records')}")
+        print(f"[aggregate] Job summary rows: {len(job_summary)}")
+        
+        return {
+            "daily_summary": daily_summary,
+            "job_campaign_summary": job_summary
+        }
+
 
     @task
-    def save(summary_df: pd.DataFrame) -> str:
+    def save(summary_dict: dict) -> str:
         """
-        Save aggregated summary to transactions_clean table in SQLite DB,
-        and export full table to CSV for easy access in Windows.
+        Save multiple summary tables to SQLite and export to CSV.
         """
-        # try:
-        #     # Use the correct WSL path
-        #     db_path = "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/banking.db"
-        #     engine = create_engine(f"sqlite:///{db_path}")
-            
-        #     # Get raw connection
-        #     conn = engine.raw_connection()
-            
-        #     try:
-        #         # 1️⃣ Append summary row to SQLite table
-        #         summary_df.to_sql(
-        #             "transactions_clean",
-        #             con=conn,
-        #             if_exists="append",
-        #             index=False
-        #         )
-        #         print(f"[save] wrote {len(summary_df)} row(s) to transactions_clean")
+        print("[save] Task started")
+        print(f"[save] Received {len(summary_dict)} summary tables")
+        
+        if not DB_PATH.exists():
+            raise FileNotFoundError(f"SQLite DB not found at: {DB_PATH}")
+        
+        engine = create_engine(SQLALCHEMY_CONN)
+        conn = engine.raw_connection()
+        
+        try:
+            for table_name, summary_df in summary_dict.items():
+                if summary_df.empty:
+                    print(f"[save] {table_name} is empty, skipping")
+                    continue
+                
+                # Save to SQLite
+                summary_df.to_sql(
+                    table_name,
+                    con=conn,
+                    if_exists="append",
+                    index=False,
+                )
+                print(f"[save] Wrote {len(summary_df)} row(s) to {table_name}")
+                
+                # Read back full table
+                full_df = pd.read_sql(f"SELECT * FROM {table_name}", con=conn)
+                
+                # Export to CSV
+                csv_path = f"/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/{table_name}.csv"
+                full_df.to_csv(csv_path, index=False)
+                print(f"[save] Exported {table_name} to {csv_path}")
+        
+        finally:
+            conn.close()
+        
+        return "ok"
+    # @task
+    # def aggregate(df: pd.DataFrame, execution_date: datetime = None) -> pd.DataFrame:
+    #     """
+    #     Aggregate the cleaned data to a daily summary using 'balance' as the metric.
+    #     Produces one row per DAG run with:
+    #     - dt        : date (normalized)
+    #     - row_count : total number of rows
+    #     - bal_sum   : sum of balance
+    #     - bal_mean  : mean balance
+    #     - bal_min   : min balance
+    #     - bal_max   : max balance
+    #     """
+    #     print("[aggregate] Task started")
+    #     print(f"[aggregate] received rows = {len(df)}")
+    #     print(f"[aggregate] columns = {list(df.columns)}")
 
-        #         # 2️⃣ Read back the full table
-        #         full_df = pd.read_sql("SELECT * FROM transactions_clean", con=conn)
-        #     finally:
-        #         conn.close()
+    #     dt = (
+    #         pd.Timestamp(execution_date).normalize()
+    #         if execution_date
+    #         else pd.Timestamp.utcnow().normalize()
+    #     )
 
-        #     # 3️⃣ Export to CSV
-        #     output_dir = "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data"
-        #     os.makedirs(output_dir, exist_ok=True)
+    #     if df.empty:
+    #         summary = pd.DataFrame(
+    #             [
+    #                 {
+    #                     "dt": dt,
+    #                     "row_count": 0,
+    #                     "bal_sum": 0.0,
+    #                     "bal_mean": None,
+    #                     "bal_min": None,
+    #                     "bal_max": None,
+    #                 }
+    #             ]
+    #         )
+    #         print("[aggregate] empty input -> returning empty summary")
+    #         return summary
 
-        #     output_file = os.path.join(output_dir, "transactions_clean.csv")
-        #     full_df.to_csv(output_file, index=False)
+    #     if "balance" not in df.columns:
+    #         raise KeyError(
+    #             "Expected 'balance' column in cleaned data. Columns: "
+    #             + ", ".join(df.columns)
+    #         )
 
-        #     print(f"[save] exported full table to CSV: {output_file}")
+    #     total = df["balance"].sum()
+    #     count = df["balance"].count()
+    #     mean = df["balance"].mean()
+    #     mn = df["balance"].min()
+    #     mx = df["balance"].max()
 
-        #     return "ok"
-            
-        # except Exception as e:
-        #     print(f"[save] ERROR: {str(e)}")
-        #     raise     
-        """Save task - simplified"""
-        print("[save] Task started successfully!")
-        print(f"[save] Received summary with {len(summary_df)} rows")
-        print(f"[save] Summary: {summary_df.to_dict(orient='records')}")
-        print("[save] Would write to database and export CSV here")
-        return "ok"                          
+    #     summary = pd.DataFrame(
+    #         [
+    #             {
+    #                 "dt": dt,
+    #                 "row_count": int(count),
+    #                 "bal_sum": float(total),
+    #                 "bal_mean": float(mean) if pd.notna(mean) else None,
+    #                 "bal_min": float(mn) if pd.notna(mn) else None,
+    #                 "bal_max": float(mx) if pd.notna(mx) else None,
+    #             }
+    #         ]
+    #     )
+    #     print(f"[aggregate] summary = {summary.to_dict(orient='records')}")
+    #     return summary
 
     # @task
-    # def verify() -> str:
-    #     db_path = "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/banking.db"
-    #     engine = create_engine(f"sqlite:///{db_path}")
-        
-    #     row_count = pd.read_sql("SELECT COUNT(*) as cnt FROM transactions_clean", con=engine)
-    #     print(f"[verify] transactions_clean has {row_count['cnt'][0]} rows")
-    #     return "verified"
+    # def save(summary_df: pd.DataFrame) -> str:
+    #     """
+    #     Append the summary row into SQLite table TARGET_TABLE
+    #     and export the full summary table to CSV for inspection.
+    #     """
+    #     print("[save] Task started")
+    #     print(f"[save] summary rows = {len(summary_df)}")
+    #     print(f"[save] summary = {summary_df.to_dict(orient='records')}")
 
+    #     if summary_df.empty:
+    #         print("[save] summary is empty, nothing to write")
+    #         return "empty"
 
-    # Task pipeline - This should also be inside the DAG context
+    #     if not DB_PATH.exists():
+    #         raise FileNotFoundError(f"SQLite DB not found at: {DB_PATH}")
+
+    #     engine = create_engine(SQLALCHEMY_CONN)
+    #     conn = engine.raw_connection()
+    #     try:
+    #         # Append summary row(s)
+    #         summary_df.to_sql(
+    #             TARGET_TABLE,
+    #             con=conn,
+    #             if_exists="append",
+    #             index=False,
+    #         )
+    #         print(f"[save] wrote {len(summary_df)} row(s) to {TARGET_TABLE}")
+
+    #         # Read back full summary table
+    #         full_df = pd.read_sql(f"SELECT * FROM {TARGET_TABLE}", con=conn)
+    #     finally:
+    #         conn.close()
+
+    #     # Export summary to CSV for Windows access
+    #     out_dir = os.path.dirname(CSV_OUTPUT)
+    #     os.makedirs(out_dir, exist_ok=True)
+    #     full_df.to_csv(CSV_OUTPUT, index=False)
+    #     print(f"[save] exported full summary to CSV: {CSV_OUTPUT}")
+
+    #     return "ok"
+
+    # Task pipeline
     df_raw = extract()
     df_clean = clean(df_raw)
     summary = aggregate(df_clean)

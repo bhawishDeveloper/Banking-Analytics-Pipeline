@@ -1,0 +1,2 @@
+dt,run_id,total_customers,bal_sum,bal_mean,bal_min,bal_max,deposit_yes_count,deposit_conversion_rate
+2025-11-29 00:00:00+00:00,daily_pipeline_2025-11-29T15:27:25.854193+00:00,10474,17284326.0,1650.2125262554898,0.0,81204.0,5079,48.49150276876074
