@@ -1,4 +1,3 @@
-# dags/daily_pipeline.py
 from __future__ import annotations
 import os
 from pathlib import Path
@@ -13,12 +12,12 @@ from airflow.decorators import task
 # ---------- config ----------
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", str(Path.home() / "airflow"))
 
-# Path to your SQLite DB – adjust ONLY if you moved the file
+# Path to SQLite DB 
 DB_PATH = Path("/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/banking.db")
 SQLALCHEMY_CONN = f"sqlite:///{DB_PATH}"
 
-# Name of the source table in SQLite that has your raw data
-SOURCE_TABLE = "transactions"   # change if your table is named differently
+# source table that has raw data
+SOURCE_TABLE = "transactions" 
 TARGET_TABLE = "transactions_summary"
 CSV_OUTPUT = "/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/transactions_summary.csv"
 # ---------- end config ----------
@@ -39,16 +38,8 @@ with DAG(
     catchup=False,
     tags=["banking", "etl"],
 ) as dag:
-
     @task
     def extract(execution_date: datetime = None) -> pd.DataFrame:
-        """
-        Read raw data from SQLite into a pandas DataFrame.
-        Expected columns:
-        age, job, marital, education, default, balance, housing, loan,
-        contact, day, month, duration, campaign, pdays, previous,
-        poutcome, deposit
-        """
         if not DB_PATH.exists():
             raise FileNotFoundError(f"SQLite DB not found at: {DB_PATH}")
 
@@ -59,7 +50,7 @@ with DAG(
         finally:
             conn.close()
 
-        # Add ingestion timestamp
+        # ingestion timestamp
         df["ingest_ts"] = pd.Timestamp.utcnow()
 
         print("[extract] rows =", len(df))
@@ -85,26 +76,18 @@ with DAG(
 
         if "balance" not in df.columns:
             raise KeyError(
-                "Expected 'balance' column in raw data. Columns: "
-                + ", ".join(df.columns)
+                "Expected 'balance' column in raw data. Columns: " + ", ".join(df.columns)
             )
 
-        # Make sure balance is numeric
-        df["balance"] = pd.to_numeric(df["balance"], errors="coerce")
-
-        # Drop null balances
+        df["balance"] = pd.to_numeric(df["balance"], errors="coerce")  # convert to numeric, set errors to NaN
         df = df[df["balance"].notna()].copy()
-
-        # Optionally drop negative balances (adjust if you need them)
-        df = df[df["balance"] >= 0].copy()
-
-        # Remove exact duplicates
-        df = df.drop_duplicates()
-
+        df = df[df["balance"] >= 0].copy() # Optionally drop negative balances
+        df = df.drop_duplicates()  # Remove exact duplicates
         print(f"[clean] cleaned rows = {len(df)}")
         if len(df) == 0:
             raise ValueError("[clean] No rows left after cleaning – possible data issue.")
         return df
+
     @task
     def aggregate(df: pd.DataFrame, execution_date: datetime = None) -> dict:
         """
@@ -149,9 +132,7 @@ with DAG(
         }])
         
         # 2. Job-based Campaign Performance
-        job_summary = df.groupby("job").agg({
-            "balance": ["count", "mean", "sum"],
-            "deposit": lambda x: (x == "yes").sum()
+        job_summary = df.groupby("job").agg({ "balance": ["count", "mean", "sum"], "deposit": lambda x: (x == "yes").sum()
         }).reset_index()
         
         job_summary.columns = ["job", "customer_count", "avg_balance", "total_balance", "deposit_yes_count"]
@@ -170,9 +151,7 @@ with DAG(
 
     @task
     def save(summary_dict: dict) -> str:
-        """
-        Save multiple summary tables to SQLite and export to CSV.
-        """
+        """ Save multiple summary tables to SQLite and export to CSV."""
         print("[save] Task started")
         print(f"[save] Received {len(summary_dict)} summary tables")
         
@@ -187,7 +166,6 @@ with DAG(
                 if summary_df.empty:
                     print(f"[save] {table_name} is empty, skipping")
                     continue
-                
                 # Save to SQLite
                 summary_df.to_sql(
                     table_name,
@@ -199,15 +177,12 @@ with DAG(
                 
                 # Read back full table
                 full_df = pd.read_sql(f"SELECT * FROM {table_name}", con=conn)
-                
                 # Export to CSV
                 csv_path = f"/mnt/c/Users/Raj/OneDrive - Åbo Akademi O365/banking/data/{table_name}.csv"
                 full_df.to_csv(csv_path, index=False)
                 print(f"[save] Exported {table_name} to {csv_path}")
-        
         finally:
             conn.close()
-        
         return "ok"
 
     # Task pipeline
